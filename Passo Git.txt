@@ -1,0 +1,18 @@
+1. Como criar um repositório Git:
+	1.1. Utilizando o atalho GIT INIT - que faz com que inicie ali um repositório vazio.
+		Ex.: C:\ Users\ (...)\git>git init
+	     O que isto fez foi criar uma pasta onde guarda tudo, mas essa pasta não é possivel nós vermos para não a apagarmos. Se a quisermos ver, só para verificar se está lá, na pasta onde criamos o git --> na Menu de Cima --> Ver --> Itens Ocultos.
+
+2. Criamos um documento Index.Html
+
+3. Através do atalho GIT STATUS conseguimos verificar quais os ficheiros que não estão a ser seguidos. Isto Significa que se comparamos o conteúdo da nossa pasta e do repositório há diferença. Ele automaticamente vê em que ficheiro existe as diferença e ou se nós criamos/eliminamos algum ficheiro.
+
+4. Adicionar ficheiros ao nosso Repositório, através do atalho GIT ADD __Nome do ficheiro.html____
+
+5. Submeter o ficheiro que adicionamos no passo 4 através do atralho GIT COMMIT -M "mensagem descritiva para estarmos situados mais tarde sobre o que é aquele ficheiro"
+
+6. Agora se abrir o ficheiro Html que fiz commit no passo 5 e alterar alguma coisa. Quando volto a fazer GIT STATUS, ele deteta que existiu uma alteração aquele ficheiro, por isso, temos que voltar a adiciona-lo - GIT ADD - e a submete-lo novamente nesta nova versão - GIT COMMIT -M "___"
+
+7. Se pretender ADICIONAR TODOS OS FICHEIROS DE UMA VEZ só utilizo o atalho: GIT ADD .
+    Depois basta só fazer o atalho Git Commit -m"__" que submete todos os que foram adicionados
+
