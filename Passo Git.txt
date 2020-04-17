@@ -16,3 +16,20 @@
 7. Se pretender ADICIONAR TODOS OS FICHEIROS DE UMA VEZ só utilizo o atalho: GIT ADD .
     Depois basta só fazer o atalho Git Commit -m"__" que submete todos os que foram adicionados
 
+8. Vamos ao GitHub e começamos um novo projecto.
+	NOTA: Têm que se público que o privado paga-se.
+	8.1. Copio o link que o GitHub dá.
+
+9.Na Linha de Comandos utilizado o atalho GIT REMOTE ADD __Nome que queremos dar___ LINK que copiamos do Github.
+	(..) git remote add github https://github.com/Foxcut/teste.git
+  Isto está a ligar o nosso repositório local a um repositório online para onde nós vamos enviar o nosso código.
+
+10. Utilizamos o atalho GIT REMOTE -V para vermos as ligações remotas que temos.
+
+11. Agora vamos enviar o que está no repositório para o repositório online (convém sempre fazer um Git Status para verificar se está tudo ok antes de enviar) utilizando o Atalho GIT PUSH _nome que demos a ligação no passo 9__ MASTER.
+	(..) git puss github master
+
+12. No GitHub, fazemos refresh e estão lá os nossos commits
+
+
+
